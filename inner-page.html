@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+<script src="assets/js/min.js"></script>
+    <script>
+        $(function() {
+            // Use jQuery to load the header.html file into the <header> element
+            $('#header').load('header.html');
+            $('#footer').load('footer.html');
+        });
+    </script>
+
+</head>
+
+<body>
+  <header id="header"></header>
+
+  
+  <main id="main"> 
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Inner Page</li>
+        </ol>
+        <h2>Inner Page</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <p>
+          Example inner page template
+        </p>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  
+  <footer id="footer"></footer>
+ 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
