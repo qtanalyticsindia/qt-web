@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+<script src="assets/js/min.js"></script>
+    <script>
+        $(function() {
+            // Use jQuery to load the header.html file into the <header> element
+            $('#header1').load('header1.html');
+            $('#footer').load('footer.html');
+        });
+    </script>
+    
+    
+    <style>
+        #imageFrame {
+            width: 50%;
+            height: 400px;
+            float: left;
+        }
+
+        #contactFrame {
+            width: 40%;
+            height: 400px;
+            float: right;
+        }
+        
+      table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #tid {
+            background-color: #f4f4f4;
+            color: black;
+            border: 1px solid black;
+            padding: 6px;
+            text-align: left;
+            font-size: 12px;
+        }
+        
+        @keyframes wave {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .highlight {
+            display: inline-block;
+            animation: wave 1s infinite;
+        }
+        
+        </style>
+
+</head>
+
+<body>
+  <header id="header1"></header>
+
+  
+  <main id="main"> 
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+          
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Instructor-led-Trainings</li>
+        </ol>
+        <h2>Instructor-led-Trainings</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        
+ 
+ <p style="text-align: justify;">
+ <strong>QTanalytics<sup><span>&#174</span></sup></strong>&nbsp;India is a statistical consulting, research and education provider firm with a bright and experienced team of professionals, who consistently strive to achieve a common goal of service excellence in trainings. We have helped hundreds of individual and corporate clients find solutions to complex problems through the use of advanced statistical modeling techniques. At QTanalytics, we offer standard onsite training programs on data analytics software<strong>&nbsp;Excel, SPSS, STATA, AMOS, SmartPLS, STATCRAFT, MINITAB, EVIEWS, R, PYTHON and SAS software</strong>.&nbsp;<strong>We are inviting proposals for joint Colaboration for conducting two/three/five days training programs on:</strong> <a href = "assets/pdf/Brochure.pdf" target="_blank"><strong>Download Course Details for collaborations</strong></a>
+ 
+ 
+ </p>
+
+   
+  
+  <footer id="footer"></footer>
+ 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
